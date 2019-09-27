@@ -28,7 +28,7 @@ echo "--------------------------------------------------------------------------
 
 
 apt update
-apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils xrdp vnc4server tightvncserver
+apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils xrdp vnc4server tightvncserver -y
 echo “xfce4-session” >~/.xsession 
 sudo service xrdp restart
 echo "---------------------------------------------------------------------------------------------------------------------"
